@@ -1,0 +1,44 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.a-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+
+}
+.a-right{
+    flex:1;
+    position: relative;
+    
+}
+.a-card.bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: gray;
+    height: 100%;
+    width: 50%;
+}
+.a-card{
+    width: 60%;
+    height: 50vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.a-img{
+    background: url(../../img/girl-bg.jpg) no-repeat;
+    height:100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.a-desc{
+    display: flex;
+    position: relative;
+}

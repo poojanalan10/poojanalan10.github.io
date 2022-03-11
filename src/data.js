@@ -1,0 +1,20 @@
+export const projects = [
+    {
+        id: 1,
+        title: "Appointment Book App-github",
+        description: "Appointment Book was a part of my Advanced Java course. The project involved the creation of an appointment book for an owner who can store their appointment date, time, and description. The application can be used to view appointments for a particular owner, search for an appointment, search appointments within a particular date range for an owner, etc. The entire application was built on Java. During the development of the project, different deployment methods were used at different stages. Initially, it was a web application and then turned into a client-server application, and then finally we moved to android application development. It was a great way to learn various ways to deploy the developed code. The android application was particularly interesting since it was my first android app and I had to learn and practice a lot to get the application running. I would love to explore more on it too. Another interesting part of the course was JUnit. We had to write unit test cases for all the functionality we implemented. We were able to submit the code only if the build was successful. And, for the build to be successful, we had to have a minimum of seventy-five percent of unit test code coverage. I had a huge challenge writing unit test cases for the first time and also learning about JUnit. It took me a while to write the test cases and optimize the code to make it easier to test. It was an individual project and not a group project. While this was challenging, it was also a fun way to learn.",
+        link: "https://github.com/poojanalan10/PortlandStateJavaSummer2021",
+    },
+    {
+        id: 2,
+        title: "DBMS Impln benchmark-github",
+        description: "I used the Wisconsin benchmark design to generate data tables of various sizes and perform various experiments on them. My code generates data according to the Wisconsin benchmark specification, as described in “The Wisconsin Benchmark: Past, Present, and Future” by David J. DeWitt. I also tested the performance of a system by choosing a variety of queries fetching data of different sizes and attributes under varying conditions. In addition, I recorded the results of execution and measured the performance in terms of time and cost and the impact it had on modifying the query parameters.",
+        link: "https://github.com/poojanalan10/dbmsImplnProject",
+    },
+    {
+        id: 3,
+        title: "Oregon Highway data Analysis and Integration-github",
+        description: "High-quality data is crucial for any data project. I gained some experience and knowledge of analyzing data sets for quality as a part of this activity. The data set listed all Oregon automobile crashes on Mt. Hood Hwy (Highway 26) during 2019. The data was provided by the Oregon Department of Transportation and is part of a larger data set that is often utilized for studies of roads, traffic, and safety. Data validation is usually an iterative three-step process. First (part A) I developed assertions about my data as a way to make your assumptions explicit. Second (part B) I wrote the code to evaluate the assertions and test the assumptions. This helped me refine my existing assertions (part C) before starting the whole process over again by creating new assertions (part A again). As a part of this activity, I analyzed the crash data and wrote assertions (part A). Then I wrote a  python code to read in the test data and parse it into python data structures. I used pandas’ methods for reading CSV files into a pandas Dataframe and validated each assertion in part A. If any assertions were violated I made a note of it.  For each assertion violation found during the two loops of the process, I wrote python code to resolve the assertions. This includes dropping rows, dropping columns, adding default values, modifying values, or other operations depending on the nature of the violation. I also represented the assertions by plotting various graphs.",
+        link: "https://github.com/poojanalan10/OregonHighway",
+    }
+]
